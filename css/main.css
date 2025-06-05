@@ -85,3 +85,68 @@ button {
   height: auto;
   object-fit: cover;
 }
+
+.specialists {
+  padding: 60px 20px;
+  background-color: #f5f2d5;
+}
+
+.specialists__title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  text-align: center;
+  color: #35110F;
+}
+
+.specialists__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.specialists__card {
+  background-color: #fff;
+  border: 2px solid #35110F;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+}
+
+.specialists__image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 12px;
+}
+
+.specialists__name {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 4px;
+  color: #35110F;
+}
+
+.specialists__job {
+  font-size: 16px;
+  font-style: italic;
+  margin-bottom: 8px;
+  color: #444;
+}
+
+.specialists__desc {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 12px;
+}
+
+.specialists__link {
+  display: inline-block;
+  padding: 10px 16px;
+  background-color: #800080;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
