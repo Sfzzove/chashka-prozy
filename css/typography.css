@@ -23,9 +23,6 @@ section {
   margin: 5px 0;
 }
 
-/* typography.css */
-
-/* Ссылки */
 .nav__link,
 .footer__link {
   transition: color 0.3s, text-decoration 0.3s;
@@ -33,7 +30,7 @@ section {
 
 .nav__link:hover,
 .footer__link:hover {
-  color: #800080; /* фиолетовый акцент */
+  color: #800080; 
   text-decoration: underline;
 }
 
@@ -42,7 +39,6 @@ section {
   outline: 2px solid #800080;
 }
 
-/* Кнопки */
 .form__button {
   background-color: #800080;
   color: #fff;
@@ -61,7 +57,6 @@ section {
   background-color: #3c003c;
 }
 
-/* Поля формы */
 .form__input,
 .form__textarea {
   transition: outline 0.3s;
