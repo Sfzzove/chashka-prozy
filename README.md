@@ -18,3 +18,4 @@
 https://github.com/Sfzzove/chashka-prozy.git
 https://www.figma.com/design/6j76oZTwnkypImv2mJujZp/%D0%A7%D0%B0%D1%88%D0%BA%D0%B0-%D0%BF%D1%80%D0%BE%D0%B7%D1%8B?node-id=2016-3&t=G91gYYu9qDUN5FhC-1
 
+ Адаптивная верстка реализована для разрешения: 768px
