@@ -22,3 +22,52 @@ section {
 .footer__contacts p {
   margin: 5px 0;
 }
+
+/* typography.css */
+
+/* Ссылки */
+.nav__link,
+.footer__link {
+  transition: color 0.3s, text-decoration 0.3s;
+}
+
+.nav__link:hover,
+.footer__link:hover {
+  color: #800080; /* фиолетовый акцент */
+  text-decoration: underline;
+}
+
+.nav__link:focus,
+.footer__link:focus {
+  outline: 2px solid #800080;
+}
+
+/* Кнопки */
+.form__button {
+  background-color: #800080;
+  color: #fff;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.form__button:hover {
+  background-color: #5e005e;
+}
+
+.form__button:focus {
+  outline: 2px solid #800080;
+}
+
+.form__button:active {
+  background-color: #3c003c;
+}
+
+/* Поля формы */
+.form__input,
+.form__textarea {
+  transition: outline 0.3s;
+}
+
+.form__input:focus,
+.form__textarea:focus {
+  outline: 2px solid #800080;
+}
