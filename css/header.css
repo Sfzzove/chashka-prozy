@@ -1,5 +1,5 @@
 .header {
-  background-color: ##f5f2d5;
+  background-color: #f5f2d5;
   border-bottom: 3px solid #2b1008;
   padding: 20px 0;
 }
@@ -16,6 +16,7 @@
   align-items: center;
   width: 100%;
   max-width: 1200px;
+  gap: 80px; /* расстояние между списками и логотипом */
 }
 
 .nav__list {
@@ -26,24 +27,6 @@
   margin: 0;
 }
 
-.nav__list--left {
-  justify-content: flex-end;
-}
-
-.nav__list--right {
-  justify-content: flex-start;
-}
-
 .nav__link {
   text-decoration: none;
-  font-weight: bold;
-  font-size: 18px;
-  color: #000;
-}
 
-.header__logo {
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
-  background-color: transparent;
-}
