@@ -1,9 +1,16 @@
 .main__intro {
-  padding: 40px 0;
   text-align: center;
+  padding: 60px 20px;
+  background-color: #fafafa;
 }
 
 .main__title {
-  font-size: 32px;
-  margin-bottom: 10px;
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.main__text {
+  font-size: 18px;
+  color: #666;
 }
