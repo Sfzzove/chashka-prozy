@@ -23,9 +23,9 @@
 
 .nav__list {
   display: flex;
-  gap: 0px;
+  gap: 200px;
   list-style: none;
-  padding: 0;
+  padding: 200;
   margin: 0;
 }
 
