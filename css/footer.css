@@ -1,14 +1,20 @@
 .footer {
-  background-color: #f2f2f2;
+  background-color: #333;
+  color: #fff;
   padding: 30px 0;
 }
 
 .footer__contacts {
-  font-size: 14px;
-  line-height: 1.4;
+  margin-top: 20px;
 }
 
 .footer__link {
-  color: #333;
-  text-decoration: none;
+  color: #fff;
+  text-decoration: underline;
+}
+
+.nav__list--footer {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
 }
