@@ -13,8 +13,12 @@
   text-decoration: underline;
 }
 
-.nav__list--footer {
+.footer__nav .nav__list {
   display: flex;
-  gap: 15px;
   flex-wrap: wrap;
+  gap: 20px;
+  list-style: none;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
 }
