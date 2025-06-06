@@ -4,10 +4,11 @@
     padding: 0 10px;
   }
 
-  .header__nav {
-    flex-direction: column;
-    gap: 20px;
-  }
+ .header__nav {
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
 
   .nav__list {
     flex-wrap: wrap;
@@ -29,5 +30,34 @@
   .form__textarea {
     width: 100%;
   }
+}
+
+.main__form-section {
+  padding: 20px 10px;
+}
+
+.main__title {
+  font-size: 24px;
+  text-align: center;
+}
+
+.main__text {
+  font-size: 16px;
+  text-align: center;
+}
+
+.header__logo {
+  width: 60px;
+  height: 60px;
+}
+
+.specialists__list {
+  flex-direction: column;
+  align-items: center;
+}
+
+.specialists__card {
+  width: 100%;
+  max-width: 320px;
 }
 
