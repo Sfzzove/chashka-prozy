@@ -7,7 +7,7 @@
 .header__container {
   max-width: 1440px;
   margin: 0 auto;
-  padding: 200px;
+  padding: 0px;
   height: 100%;
   display: flex;
   align-items: center;
@@ -23,7 +23,7 @@
 
 .nav__list {
   display: flex;
-  gap: 200px;
+  gap: 0px;
   list-style: none;
   padding: 200;
   margin: 0;
