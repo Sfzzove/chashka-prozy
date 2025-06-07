@@ -2,8 +2,9 @@
   .container {
     max-width: 100%;
     padding: 0 10px;
-  }
-
+}
+  
+<!-- Секция "Хедер" -->
  .header__nav {
   flex-direction: column;
   align-items: center;
@@ -14,28 +15,28 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 15px;
-  }
+}
   
   .header__logo {
   width: 60px;
   height: 60px;
 }
 
+<!-- Секция "Футер" -->
   .footer__columns {
     flex-direction: column;
     align-items: center;
     gap: 30px;
-  }
+}
 
   .form__label {
     width: 100%;
-  }
+}
 
   .form__input,
   .form__textarea {
     width: 100%;
-  }
-
+}
 
 .main__form-section {
   padding: 20px 10px;
@@ -51,16 +52,7 @@
   text-align: center;
 }
 
-.specialists__list {
-  flex-direction: column;
-  align-items: center;
-}
-
-.specialists__card {
-  width: 100%;
-  max-width: 320px;
-}
-
+<!-- Секция "О кафе" -->
 .aboutus {
   flex-direction: column;
   align-items: center;
@@ -74,9 +66,8 @@
 .aboutus__right {
   text-align: left;
 }
-}
 
-
+<!-- Секция "Отзывы" -->
   .reviews__list {
     flex-direction: column;
     align-items: center;
