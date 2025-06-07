@@ -34,6 +34,9 @@
   margin-bottom: 20px;
 }
 
+.aboutus__desc strong {
+  font-weight: 700;
+}
 
 .advantages {
   background-color: #f5f2d5;
