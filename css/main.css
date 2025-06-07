@@ -109,7 +109,7 @@
   text-align: center;
   font-size: 32px;
   margin-bottom: 40px;
-  color: #35110F;
+  color: #000000;
 }
 
 .reviews__list {
@@ -152,12 +152,12 @@
   font-size: 20px;
   font-weight: 700;
   margin: 0 0 10px;
-  color: #35110F;
+  color: #000000;
 }
 
 .review__text {
   font-size: 16px;
-  color: #35110F;
+  color: #000000;
   margin-bottom: 10px;
 }
 
