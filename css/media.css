@@ -15,6 +15,11 @@
     justify-content: center;
     gap: 15px;
   }
+  
+  .header__logo {
+  width: 60px;
+  height: 60px;
+}
 
   .footer__columns {
     flex-direction: column;
@@ -30,7 +35,7 @@
   .form__textarea {
     width: 100%;
   }
-}
+
 
 .main__form-section {
   padding: 20px 10px;
@@ -44,11 +49,6 @@
 .main__text {
   font-size: 16px;
   text-align: center;
-}
-
-.header__logo {
-  width: 60px;
-  height: 60px;
 }
 
 .specialists__list {
@@ -74,5 +74,5 @@
 .aboutus__right {
   text-align: left;
 }
-
+}
 
