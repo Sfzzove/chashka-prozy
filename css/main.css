@@ -1,89 +1,42 @@
-.main__intro {
-  text-align: center;
+.aboutus {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5f2d5; /* фон сайта */
   padding: 60px 20px;
-  background-color: #f5f2d5;
+  gap: 40px;
 }
 
-.main__title {
-  font-size: 28px;
-  font-weight: 600;
-  margin-bottom: 20px;
-}
-
-.main__text {
-  font-size: 18px;
-  color: #666;
-}
-form {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 15px;
-  margin-top: 40px;
-}
-
-input,
-textarea {
-  padding: 10px;
-  font-size: 16px;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-}
-
-input[type="submit"],
-button {
-  padding: 10px 20px;
-  background-color: #800080;
-  color: white;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-}
-
-.about {
-  display: flex;
-  gap: 20px;
-  background-color: #f3f3f3;
-  color: #35110F;
-  padding: 30px;
-  margin-bottom: 40px;
-}
-
-.about__wrap-left {
-  display: flex;
-  flex-direction: column;
+.aboutus__left {
   flex: 1;
+  text-align: center;
 }
 
-.about__wrap-right {
-  width: 500px;
-  flex-shrink: 0;
+.aboutus__heading {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.4;
+  color: #000;
+  margin-bottom: 16px;
 }
 
-.about__title {
-  font-size: 28px;
-  margin-bottom: 15px;
+.aboutus__label {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #000;
 }
 
-.about__text {
+.aboutus__right {
+  flex: 2;
+}
+
+.aboutus__text {
+  font-family: 'Montserrat', sans-serif;
   font-size: 18px;
   line-height: 1.6;
-  margin-bottom: 20px;
-}
-
-.about__button {
-  display: block;
-  padding: 12px 20px;
-  background-color: #800080;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 6px;
-  width: fit-content;
-  margin-top: auto;
-}
-.about__image {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
+  color: #000;
 }
 
 .specialists {
