@@ -62,33 +62,27 @@
 }
 
 <!-- Секция "Отзывы" -->
-.reviews__list {
+ .reviews__list {
   flex-direction: column;
   align-items: center;
-}
+  gap: 30px;
+ }
 
-.review__card {
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  padding: 20px;
-}
+ .review__card {
+   max-width: 90%;
+ }
 
-.review__photo {
-  width: 90px;
-  height: 90px;
-}
+ .review__photo {
+   width: 90px;
+   height: 90px;
+ }
 
-.review__name {
-  font-size: 18px;
-}
+ .review__name {
+   font-size: 18px;
+ }
 
-.review__text {
-  font-size: 15px;
-}
-
-.review__stars {
-  font-size: 18px;
+ .review__text {
+   font-size: 15px;
 }
 
 <!-- Секция "Футер" -->
