@@ -13,7 +13,7 @@
   font-size: 16px;
   font-weight: 600;
   font-family: 'Montserrat', sans-serif;
-  background-color: #800080;
+  background-color: #35110F;
   color: #fff;
   border: none;
   border-radius: 8px;
@@ -24,17 +24,17 @@
 
 .button:hover,
 .form__button:hover {
-  background-color: #5e005e;
+  background-color: #35110F;
 }
 
 .button:focus,
 .form__button:focus {
-  outline: 2px solid #800080;
+  outline: 2px solid #29110f;
 }
 
 .button:active,
 .form__button:active {
-  background-color: #3c003c;
+  background-color: #29110f;
 }
 
 /* Состояния форм */
@@ -45,12 +45,12 @@
 
 .form__input:focus,
 .form__textarea:focus {
-  outline: 2px solid #800080;
+  outline: 2px solid #35110F;
 }
 
 .form__input:disabled,
 .form__textarea:disabled {
-  background-color: #eee;
+  background-color: #35110F;
   cursor: not-allowed;
 }
 
@@ -74,11 +74,11 @@ section {
 
 .nav__link:hover,
 .footer__link:hover {
-  color: #800080;
+  color: #35110F;
   text-decoration: underline;
 }
 
 .nav__link:focus,
 .footer__link:focus {
-  outline: 2px solid #800080;
+  outline: 2px solid #35110F;
 }
