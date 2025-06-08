@@ -4,7 +4,7 @@
     padding: 0 10px;
  }
   
-<!-- Секция "Хедер" -->
+/*  Секция "Хедер"  */
  .header__nav {
     display: flex;
     flex-direction: column;
@@ -28,7 +28,7 @@
     font-size: 18px;
   }
 
-<!-- Секция "Задайте свой вопрос" -->   
+/*  Секция "Задайте свой вопрос"  */ 
   .form__label {
     width: 100%;
  }
@@ -52,7 +52,7 @@
   text-align: center;
 }
 
-<!-- Секция "О кафе" -->
+/*  Секция "О кафе"  */
 .aboutus {
   flex-direction: column;
   align-items: center;
@@ -67,7 +67,7 @@
   text-align: left;
 }
 
-<!-- Секция "Отзывы" -->
+/*  Секция "Отзывы"  */
  .reviews__list {
   flex-direction: column;
   align-items: center;
@@ -91,7 +91,7 @@
    font-size: 15px;
 }
 
-<!-- Секция "Футер" -->
+/*  Секция "Футер"  */
 .footer__columns {
   flex-direction: column;
   align-items: center;
