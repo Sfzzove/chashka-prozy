@@ -6,155 +6,207 @@
   <title>Чашка Прозы</title>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 </head>
+
+
 <body>
- <header class="header">
-  <div class="container header__container">
-     <nav class="header__nav nav">
-  <ul class="nav__list nav__list--left">
-    <li class="nav__item"><a href="#about" class="nav__link">О нас</a></li>
-    <li class="nav__item"><a href="#services" class="nav__link">Услуги</a></li>
-  </ul>
 
-  <div class="logo__item">
-    <img src="images/logo.svg" alt="Логотип" class="header__logo" width="90" height="90">
-  </div>
-
-  <ul class="nav__list nav__list--right">
-    <li class="nav__item"><a href="#contacts" class="nav__link">Контакты</a></li>
-    <li class="nav__item"><a href="#reviews" class="nav__link">Отзывы</a></li>
-  </ul>
-</nav>
-
- </div>
-</header>
-
-  <main class="main">
-    <div class="container main__container">
-     
-<!-- Секция "О кафе" -->
-<section class="aboutus">
-  <div class="aboutus__left">
-    <h2 class="aboutus__title">Для любителей<br>литературы и вкусного кофе</h2>
-    <p class="aboutus__subtitle">Книжное кафе</p>
-  </div>
-  <div class="aboutus__right">
-    <p class="aboutus__desc">
-     <strong>Чашка прозы</strong> — книжное кафе с уютной атмосферой, отличным кофе и богатым выбором литературы. Работаем с любителями чтения всех возрастов. Нас вдохновляют книги и возможность создавать комфортное пространство для чтения.
-    </p>
-    <p class="aboutus__desc">
-      Наша команда гордится широким ассортиментом изданий, внимательным персоналом и качественным сервисом. Наши работники всегда готовы помочь с выбором книги или посоветовать новый напиток. Мы стремимся создать пространство, где каждый найдёт что-то особенное.
-    </p>
-  </div>
-</section>
-
-<!-- Секция "Преимущества " -->
-<section class="advantages">
-  <div class="advantages__container">
-    <h2 class="advantages__title">Наши достоинства</h2>
-    <div class="advantages__content">
-      <div class="advantages__left">
-        <div class="advantages__item">
-          <img src="images/splash.svg" alt="Клякса" class="advantages__icon">
-          <div class="advantages__text">
-            <h3>Хорошее качество</h3>
-            <p>Мы готовим только из свежих продуктов и варим кофе из натуральных зёрен.</p>
-          </div>
+  <div class="preloader">
+        <div class="loader">
+            <span class="dot1"></span>
+            <span class="dot2"></span>
+            <span class="dot3"></span>
         </div>
-        <div class="advantages__item">
-          <img src="images/splash.svg" alt="Клякса" class="advantages__icon">
-          <div class="advantages__text">
-            <h3>Тёплая атмосфера</h3>
-            <p>Мы создаём уютное и гостеприимное пространство и стараемся, чтобы каждый посетитель чувствовал себя комфортно.</p>
+    </div>
+
+  <div class="wrapper wrapper__content">
+    <header class="header">
+      <div class="container header__container">
+        <div class="header__inner">
+          <a href="index.html" class="header__img">
+          <div class="header__logo-container">
+            <img src="images/logo.svg" alt="Логотип" class="header__logo" width="90" height="90">
           </div>
-        </div>
-        <div class="advantages__item">
-          <img src="images/splash.svg" alt="Клякса" class="advantages__icon">
-          <div class="advantages__text">
-            <h3>Уникальный опыт</h3>
-            <p>Благодаря отдельному залу для читателей вы можете полностью погрузиться в увлекательную книгу с любимым кофе.</p>
-          </div>
-        </div>
+          </a>
+        <nav class="header__nav nav">
+          <ul class="nav__list nav__list--left">
+            <!-- <li class="nav__item"><a href="#about" class="nav__link">О нас</a></li>
+            <li class="nav__item"><a href="#services" class="nav__link">Услуги</a></li>
+            <li class="nav__item"><a href="#contacts" class="nav__link">Контакты</a></li>
+            <li class="nav__item"><a href="#reviews" class="nav__link">Отзывы</a></li> -->
+          </ul>
+        </nav>
       </div>
-      <img src="images/library.jpg" alt="Кафе" class="advantages__image">
     </div>
-  </div>
-</section>
+  </header>
+   
+     <main class="main">
+       <div class="container main__container">
+        
+        <!-- Секция "О кафе" -->
+        <section id="1" class="aboutus">
+          <div class="aboutus__left">
+            <h2 class="aboutus__title">Для любителей<br>литературы и вкусного кофе</h2>
+            <p class="aboutus__subtitle">Книжное кафе</p>
+            <button type="button" class="button__window">Расписание</button>
+            <div class="modal-window" id="modal-window">
+              <div class="modal-window__body">
+                <div class="modal-window__content">
+                  <h4 class="modal-window__title">
+                    Дни работы
+                  </h4>
+                  <p class="modal-window__text">
+                    Мы работаем каждый день с 10:00 до 17:00
+                  </p>
+                </div>
+                <button class="modal-window__close">&#10006;</button>
+              </div>
+            </div>
+          </div>
+          <div class="aboutus__right">
+            <p class="aboutus__desc">
+              <strong>Чашка прозы</strong> — книжное кафе с уютной атмосферой, отличным кофе и богатым выбором литературы. Работаем с любителями чтения всех возрастов. Нас вдохновляют книги и возможность создавать комфортное пространство для чтения.
+            </p>
+            <p class="aboutus__desc">
+              Наша команда гордится широким ассортиментом изданий, внимательным персоналом и качественным сервисом. Наши работники всегда готовы помочь с выбором книги или посоветовать новый напиток. Мы стремимся создать пространство, где каждый найдёт что-то особенное.
+            </p>
+          </div>
+        </section>
+        
+        <!-- Секция "Преимущества " -->
+        <section id="2" class="advantages">
+          <div class="advantages__container">
+            <h2 class="advantages__title">Наши достоинства</h2>
+            <div class="advantages__content">
+              <div class="advantages__left">
+                <div class="advantages__item">
+                  <img src="images/splash.svg" alt="Клякса" class="advantages__icon">
+                  <div class="advantages__text">
+                    <h3>Хорошее качество</h3>
+                    <p>Мы готовим только из свежих продуктов и варим кофе из натуральных зёрен.</p>
+                  </div>
+                </div>
+                <div class="advantages__item">
+                  <img src="images/splash.svg" alt="Клякса" class="advantages__icon">
+                  <div class="advantages__text">
+                    <h3>Тёплая атмосфера</h3>
+                    <p>Мы создаём уютное и гостеприимное пространство и стараемся, чтобы каждый посетитель чувствовал себя комфортно.</p>
+                  </div>
+                </div>
+                <div class="advantages__item">
+                  <img src="images/splash.svg" alt="Клякса" class="advantages__icon">
+                  <div class="advantages__text">
+                    <h3>Уникальный опыт</h3>
+                    <p>Благодаря отдельному залу для читателей вы можете полностью погрузиться в увлекательную книгу с любимым кофе.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="advantages__wrapper">
+                <img src="images/library.jpg" alt="Кафе" class="advantages__image">
+                <div id="advantages__description-text" class="advantages__description-text"></div>
+              </div>
+            </div>
+          </div>
+        </section>
 
-<!-- Секция "Отзывы" -->
-<section class="reviews">
-  <h2 class="reviews__title">Отзывы наших гостей</h2>
-  <div class="reviews__list">
-    <div class="review__card">
-      <img src="images/review1.jpg" alt="Фото Антона" class="review__photo">
-      <h3 class="review__name">Антон К.</h3>
-      <p class="review__text">
-        Великолепное место для любителей книг и кофе! Очень уютно, вкусные десерты и классическая музыка — всё, что нужно для спокойного вечера.
-      </p>
-      <div class="review__stars">★★★★★</div>
-    </div>
-    <div class="review__card">
-      <img src="images/review2.jpg" alt="Фото Марии" class="review__photo">
-      <h3 class="review__name">Мария Л.</h3>
-      <p class="review__text">
-        Обожаю «Чашку Прозы»! Здесь всегда тихо и душевно. Часто прихожу с книгой и заказываю капучино — это мой способ отдыха. Персонал просто супер!
-      </p>
-      <div class="review__stars">★★★★★</div>
-    </div>
-    <div class="review__card">
-      <img src="images/review3.jpg" alt="Фото Екатерины" class="review__photo">
-      <h3 class="review__name">Екатерина П.</h3>
-      <p class="review__text">
-        Очень уютное и атмосферное кафе. Отличный выбор литературы и всегда свежий кофе. Хожу сюда с подругами, чтобы обсудить книги и просто отдохнуть.
-      </p>
-      <div class="review__stars">★★★★★</div>
-    </div>
+        <section id="3" class="section__hosts">
+                <div class="container">
+                    <h2 class="hosts__title">Наши ведущие</h2>
+                    <ul class="hosts__list"></ul>
+                </div>
+            </section>
+        
+        <!-- Секция "Отзывы" -->
+        <section id="4" class="section__reviews">
+          <div class="container">
+            <h2 class="reviews__title">Отзывы наших гостей</h2>
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="review__card">
+                    <img src="images/review1.jpg" alt="Фото Антона" class="review__photo">
+                    <h4 class="review__name"></h4>
+                    <p class="review__text">
+                      Великолепное место для любителей книг и кофе! Очень уютно, вкусные десерты и классическая музыка — всё, что нужно для спокойного вечера.
+                    </p>
+                    <div class="review__stars">★★★★★</div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="review__card">
+                    <img src="images/review2.jpg" alt="Фото Марии" class="review__photo">
+                    <h4 class="review__name"></h4>
+                    <p class="review__text">
+                      Обожаю «Чашку Прозы»! Здесь всегда тихо и душевно. Часто прихожу с книгой и заказываю капучино — это мой способ отдыха. Персонал просто супер!
+                    </p>
+                    <div class="review__stars">★★★★★</div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="review__card">
+                    <img src="images/review3.jpg" alt="Фото Екатерины" class="review__photo">
+                    <h4 class="review__name"></h4>
+                    <p class="review__text">
+                      Очень уютное и атмосферное кафе. Отличный выбор литературы и всегда свежий кофе. Хожу сюда с подругами, чтобы обсудить книги и просто отдохнуть.
+                    </p>
+                    <div class="review__stars">★★★★★</div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </section>
+        
+        <!-- Секция "Задайте свой вопрос" -->      
+        <section class="main__form-section">
+          <h2 class="main__form-title">Задайте свой вопрос</h2>
+          <form action="#" method="post" class="form">
+            <label for="name" class="form__label">Имя:
+                <input type="text" id="name" name="name" class="form__input" required>
+            </label>
+            <label for="email" class="form__label">Email:
+                <input type="email" id="email" name="email" class="form__input" required>
+            </label>
+            <label for="message" class="form__label">Сообщение:
+              <textarea id="message" name="message" class="form__textarea" required></textarea>
+            </label>
+            <button type="submit" class="form__button">Отправить</button>
+            </form>
+        </section>
+        </div>
+     </main>
+   
+   <footer class="footer">
+     <div class="container footer__container">
+       <div class="footer__columns">
+         <div class="footer__column">
+           <h3 class="footer__title">Меню</h3>
+           <ul class="footer__list">
+             <li><a href="#about" class="footer__link">О нас</a></li>
+             <li><a href="#services" class="footer__link">Услуги</a></li>
+             <li><a href="#contacts" class="footer__link">Контакты</a></li>
+             <li><a href="#reviews" class="footer__link">Отзывы</a></li>
+           </ul>
+         </div>
+        <div class="footer__column">
+     <h3 class="footer__title">Контакты</h3>
+     <ul class="footer__list">
+       <li class="footer__text">Телефон: <a href="tel:+112345678" class="footer__link">+1 123 456 78</a></li>
+       <li class="footer__text">Почта: <a href="mailto:chashkaprozy@gmail.com" class="footer__link">chashkaprozy@gmail.com</a></li>
+       <li class="footer__text">Г. Йошкар-Ола, ул. Кремлёвская, д. 44</li>
+       <li class="footer__text">Разработали: Мухридинов Даниил и Кропотов Семён СВ-21</li>
+     </ul>
+   </div>
+       </div>
+     </div>
+   </footer>
   </div>
-</section>
 
-<!-- Секция "Задайте свой вопрос" -->      
-<section class="main__form-section">
-  <h2 class="main__form-title">Задайте свой вопрос</h2>
-  <form action="#" method="post" class="form">
-    <label for="name" class="form__label">Имя:
-       <input type="text" id="name" name="name" class="form__input" required>
-    </label>
-    <label for="email" class="form__label">Email:
-       <input type="email" id="email" name="email" class="form__input" required>
-    </label>
-    <label for="message" class="form__label">Сообщение:
-      <textarea id="message" name="message" class="form__textarea" required></textarea>
-    </label>
-    <button type="submit" class="form__button">Отправить</button>
-   </form>
-</section>
-    </div>
-  </main>
-
-<footer class="footer">
-  <div class="container footer__container">
-    <div class="footer__columns">
-      <div class="footer__column">
-        <h3 class="footer__title">Меню</h3>
-        <ul class="footer__list">
-          <li><a href="#about" class="footer__link">О нас</a></li>
-          <li><a href="#services" class="footer__link">Услуги</a></li>
-          <li><a href="#contacts" class="footer__link">Контакты</a></li>
-          <li><a href="#reviews" class="footer__link">Отзывы</a></li>
-        </ul>
-      </div>
-     <div class="footer__column">
-  <h3 class="footer__title">Контакты</h3>
-  <ul class="footer__list">
-    <li class="footer__text">Телефон: <a href="tel:+112345678" class="footer__link">+1 123 456 78</a></li>
-    <li class="footer__text">Почта: <a href="mailto:chashkaprozy@gmail.com" class="footer__link">chashkaprozy@gmail.com</a></li>
-    <li class="footer__text">Г. Йошкар-Ола, ул. Кремлёвская, д. 44</li>
-    <li class="footer__text">Разработали: Мухридинов Даниил и Кропотов Семён СВ-21</li>
-  </ul>
-</div>
-    </div>
-  </div>
-</footer>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="scripts/script.js"></script>
 </body>
 </html>

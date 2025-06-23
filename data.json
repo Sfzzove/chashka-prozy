@@ -1,0 +1,18 @@
+[
+   {
+    "image": "images/host1.avif",
+    "iconAlt": "host 1",
+    "iconWidth": 390,
+    "iconHeight": 240,
+    "title": "Александра В."
+   },
+
+   {
+    "image": "images/host2.avif",
+    "iconAlt": "host 2",
+    "iconWidth": 390,
+    "iconHeight": 240,
+    "title": "Дмитрий Г."
+   }
+   
+]
