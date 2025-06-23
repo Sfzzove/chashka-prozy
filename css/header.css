@@ -12,7 +12,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0 40px; /* Отступы слева и справа */
+  padding: 0 40px;
 }
 
 .header__nav {
@@ -24,36 +24,55 @@
 
 .nav__list {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
   gap: 280px;
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.nav__list--left {
-  justify-content: flex-start;
-}
-
-.nav__list--right {
-  justify-content: flex-end;
+.header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
 }
 
 .nav__link {
   text-decoration: none;
-  font-weight: 700; 
+  font-weight: 700;
   font-size: 22px;
   color: #000000;
 }
 
-.logo__item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.header__logo-container {
+  position: relative;
+  display: inline-block;
 }
 
 .header__logo {
   width: 90px;
   height: 90px;
-  object-fit: contain;
 }
 
+.tooltip {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: black;
+  color: #fff;
+  opacity: 0;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 14px;
+  white-space: nowrap;
+  transition: opacity 0.3s;
+  pointer-events: none;
+  z-index: 1000;
+}
+
+.tooltip.active {
+  opacity: 1;
+}
