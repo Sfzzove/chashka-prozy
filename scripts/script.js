@@ -106,7 +106,7 @@ if (headerMenu) {
     },
     link2: {
       link: '#2',
-      title: 'Услуги',
+      title: 'Достоинства',
     },
     link3: {
       link: '#3',
